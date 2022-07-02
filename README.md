@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Algorithm visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Algorithm Visualizer is a web-based interactive application for visualizing algorithms generated from code. These applications are used to illustrate the operation of a certain algorithm to simplify the process of learning that algorithm. In this paper, implementation, and visualizations of path-finding algorithms, sorting algorithms, searching algorithms and trie has been done. Following that, these visuals have been used to analyze and compare the performance of each of these algorithms. 
 
-## Available Scripts
+## List of Implemented Algorithms
+- Path Finding
+  --Breadth Firt Search
 
 In the project directory, you can run:
 
