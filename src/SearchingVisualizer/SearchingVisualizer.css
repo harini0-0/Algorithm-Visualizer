@@ -1,0 +1,43 @@
+.target {
+  margin-top: 70px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.piles {
+  grid-row-gap: 5px;
+  margin-top: -4.5%;
+}
+
+.algoDescription {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  margin-top: 5%;
+  animation-name: DescriptionAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  color: black;
+}
+
+.algoComplexity {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@keyframes DescriptionAnimation {
+  0% {
+    margin-top: 0%;
+    color: white;
+  }
+}
